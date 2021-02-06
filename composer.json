@@ -1,0 +1,20 @@
+{
+    "name": "jlgre/router",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Luke Green",
+            "email": "lukeg496@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Router\\": "src/"
+        }
+    }
+}
